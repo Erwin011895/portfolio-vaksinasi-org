@@ -2,7 +2,7 @@
   "name": "portfolio-vaksinasi-org",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://erwin011895.github.io",
+  "homepage": "https://erwin011895.github.io/portfolio-vaksinasi-org/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
