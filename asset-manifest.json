@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/static/js/main.6848c1ce.chunk.js",
-    "main.js.map": "/static/js/main.6848c1ce.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c888aa2a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c888aa2a.js.map",
-    "static/js/2.3cb2ac59.chunk.js": "/static/js/2.3cb2ac59.chunk.js",
-    "static/js/2.3cb2ac59.chunk.js.map": "/static/js/2.3cb2ac59.chunk.js.map",
-    "static/js/3.fc822bd6.chunk.js": "/static/js/3.fc822bd6.chunk.js",
-    "static/js/3.fc822bd6.chunk.js.map": "/static/js/3.fc822bd6.chunk.js.map",
-    "index.html": "/index.html",
-    "static/js/2.3cb2ac59.chunk.js.LICENSE.txt": "/static/js/2.3cb2ac59.chunk.js.LICENSE.txt"
+    "main.js": "/portfolio-vaksinasi-org/static/js/main.6848c1ce.chunk.js",
+    "main.js.map": "/portfolio-vaksinasi-org/static/js/main.6848c1ce.chunk.js.map",
+    "runtime-main.js": "/portfolio-vaksinasi-org/static/js/runtime-main.8114332d.js",
+    "runtime-main.js.map": "/portfolio-vaksinasi-org/static/js/runtime-main.8114332d.js.map",
+    "static/js/2.3cb2ac59.chunk.js": "/portfolio-vaksinasi-org/static/js/2.3cb2ac59.chunk.js",
+    "static/js/2.3cb2ac59.chunk.js.map": "/portfolio-vaksinasi-org/static/js/2.3cb2ac59.chunk.js.map",
+    "static/js/3.fc822bd6.chunk.js": "/portfolio-vaksinasi-org/static/js/3.fc822bd6.chunk.js",
+    "static/js/3.fc822bd6.chunk.js.map": "/portfolio-vaksinasi-org/static/js/3.fc822bd6.chunk.js.map",
+    "index.html": "/portfolio-vaksinasi-org/index.html",
+    "static/js/2.3cb2ac59.chunk.js.LICENSE.txt": "/portfolio-vaksinasi-org/static/js/2.3cb2ac59.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c888aa2a.js",
+    "static/js/runtime-main.8114332d.js",
     "static/js/2.3cb2ac59.chunk.js",
     "static/js/main.6848c1ce.chunk.js"
   ]
