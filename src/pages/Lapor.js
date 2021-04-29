@@ -35,7 +35,7 @@ function Lapor() {
               </div>
               <div className="section-title">
                 <h1>
-                  <a>
+                  <a href="#">
                     <br />
                      FORM LAPORAN VAKSIN COVID-19
                   </a>
@@ -46,7 +46,7 @@ function Lapor() {
               </div>
             </div>
             <div className="col-lg-6">
-              <form action="onSubmit" enctype="multipart/form-data" method="post">
+              <form action="onSubmit" encType="multipart/form-data" method="post">
                 <label className="">
                   <strong>
                      Nama Lengkap
@@ -89,7 +89,7 @@ function Lapor() {
                 </div>
                 <br />
                 <div className="form-group">
-                  <label for="tanggalvaksin">
+                  <label htmlFor="tanggalvaksin">
                     <strong>
                        Tanggal Vaksin
                       <span className="text-color">
@@ -107,8 +107,8 @@ function Lapor() {
                        *
                     </span>
                   </strong>
-                  <select className="custom-select mb-3" name="namavaksin">
-                    <option selected="selected">
+                  <select className="custom-select mb-3" name="namavaksin" defaultValue="">
+                    <option value="">
                       Jenis - Jenis Vaksin
                     </option>
                     <option value="Sinovac">

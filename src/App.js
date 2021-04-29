@@ -17,15 +17,18 @@ function App() {
     '/database': <Database/>,
     '/register': <Registrasi/>,
     '/lapor': <Lapor/>,
-    '/contact-us': <ContactUs/>,
+    '/contact-us': <ContactUs/>
   };
 
+  const prefixToTrim = '/portfolio-vaksinasi-org';
+  // const prefixToTrim = '';
   const pathname = document.location.pathname;
-  const page = routePages[pathname];
+  const lastpathname = pathname.slice(prefixToTrim.length);
+  const page = routePages[lastpathname];
 
   return (
     <>
-      <Header/>
+      <Header pathprefix={prefixToTrim}/>
       {page}
       <Footer/>
     </>

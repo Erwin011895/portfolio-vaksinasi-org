@@ -46,7 +46,7 @@ function Registrasi() {
               </div>
             </div>
             <div className="col-lg-6">
-              <form action="onSubmit" enctype="multipart/form-data" method="post">
+              <form action="onSubmit" encType="multipart/form-data" method="post">
                 <label className="">
                   <strong>
                      Nama Lengkap
@@ -65,7 +65,7 @@ function Registrasi() {
                 </div>
                 <br />
                 <div className="form-group">
-                  <label for="birthdate">
+                  <label htmlFor="birthdate">
                     <strong>
                        Tanggal Lahir
                       <span className="text-color">
@@ -86,12 +86,12 @@ function Registrasi() {
                     </strong>
                   </label>
                   <input id="male" className="form-check-input" name="gender" required="" type="radio" value="Laki-Laki" />
-                  <label for="male">
+                  <label htmlFor="male">
                      Laki-Laki
                   </label>
                   <br />
                   <input id="female" className="form-check-input" name="gender" required="" type="radio" value="Perempuan" />
-                  <label for="female">
+                  <label htmlFor="female">
                      Perempuan
                   </label>
                 </div>
