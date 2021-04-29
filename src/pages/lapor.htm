@@ -1,0 +1,188 @@
+      <section class="page-title bg-lapor">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="block text-center">
+                <h1 class="mb-4 text-lg" style="color: white;">
+                  Lapor
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section service border-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="col-lg-12">
+                <div class="alert alert-success">
+                  <p>
+                    Sukses. Terima kasih telah mengisi form lapor
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="alert alert-danger">
+                  <p>
+                    Gagal. Terjadi kesalahan sistem. Silahkan coba kembali.
+                  </p>
+                </div>
+              </div>
+              <div class="section-title">
+                <h1>
+                  <a>
+                    <br />
+                     FORM LAPORAN VAKSIN COVID-19
+                  </a>
+                </h1>
+                <p>
+                  Form ini sebagai rekapan data kami untuk vaksin COVID-19. Form ini bertujuan sebagai referensi bagi orang yang belum melakukan vaksinasi. (vaksinasi.org)
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <form action="onSubmit" enctype="multipart/form-data" method="post">
+                <label class="">
+                  <strong>
+                     Nama Lengkap
+                    <span class="text-color">
+                       *
+                    </span>
+                  </strong>
+                </label>
+                <div class="row">
+                  <div class="col">
+                    <input class="form-control" name="fname" required="" type="text" placeholder="Nama Pertama" />
+                  </div>
+                  <div class="col">
+                    <input class="form-control" name="lname" required="" type="text" placeholder="Nama Terakhir" />
+                  </div>
+                </div>
+                <br />
+                <div class="form-group">
+                  <label>
+                    <strong>
+                       Email
+                      <span class="text-color">
+                         *
+                      </span>
+                    </strong>
+                  </label>
+                  <input class="form-control" name="email" required="" type="email" />
+                </div>
+                <br />
+                <div class="form-group">
+                  <label>
+                    <strong>
+                       No. HP
+                      <span class="text-color">
+                         *
+                      </span>
+                    </strong>
+                  </label>
+                  <input class="form-control" name="no_hp" required="" type="text" />
+                </div>
+                <br />
+                <div class="form-group">
+                  <label for="tanggalvaksin">
+                    <strong>
+                       Tanggal Vaksin
+                      <span class="text-color">
+                         *
+                      </span>
+                    </strong>
+                  </label>
+                  <input id="tanggalvaksin" class="form-control" name="tanggalvaksin" required="" type="date" />
+                </div>
+                <br />
+                <div class="form-group">
+                  <strong>
+                     Nama Vaksin
+                    <span class="text-color">
+                       *
+                    </span>
+                  </strong>
+                  <select class="custom-select mb-3" name="namavaksin">
+                    <option selected="selected">
+                      Jenis - Jenis Vaksin
+                    </option>
+                    <option value="Sinovac">
+                      Vaksin sinovac
+                    </option>
+                    <option value="Astrazaneca">
+                      Vaksin astrazaneca
+                    </option>
+                    <option value="J&amp;J">
+                      Vaksin J&amp;J
+                    </option>
+                    <option value="Pfizer">
+                      Vaksin pfizer
+                    </option>
+                    <option value="Lain_Lain">
+                      Lain-Lain
+                    </option>
+                  </select>
+                  <strong>
+                     Nama Vaksin Lain
+                  </strong>
+                  <small>
+                     Isi jika anda mendapatkan Vaksin Jenis lain
+                  </small>
+                  <input class="form-control" name="vaksinlain" type="text" />
+                </div>
+                <br />
+                <div class="form-group">
+                  <strong>
+                     Lokasi Menerima
+                    <span class="text-color">
+                       *
+                    </span>
+                  </strong>
+                  <input class="form-control" name="lokasimenerima" required="" type="text" />
+                </div>
+                <br />
+                <div class="form-group">
+                  <strong>
+                     Bagaimana Pelayanan Vaksin?
+                    <span class="text-color">
+                       *
+                    </span>
+                  </strong>
+                  <input class="form-control" name="pelayanan_vaksin" required="" type="text" />
+                </div>
+                <br />
+                <div class="form-group">
+                  <strong>
+                     Keluhan yang dirasakan setelah menerima vaksin
+                    <span class="text-color">
+                       *
+                    </span>
+                    <strong>
+                      <input class="form-control" name="keluhan" required="" type="text" />
+                    </strong>
+                  </strong>
+                </div>
+                <br />
+                <div class="form-group">
+                  <strong>
+                     Kritik dan Saran
+                    <span class="text-color">
+                       *
+                    </span>
+                    <strong>
+                      <input class="form-control" name="kritik_saran" required="" type="text" />
+                    </strong>
+                  </strong>
+                </div>
+                <br />
+                <div>
+                  <button type="submit" value="Submit">
+                     Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
