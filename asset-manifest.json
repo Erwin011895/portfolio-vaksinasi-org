@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/portfolio-vaksinasi-org/static/js/main.6848c1ce.chunk.js",
-    "main.js.map": "/portfolio-vaksinasi-org/static/js/main.6848c1ce.chunk.js.map",
+    "main.js": "/portfolio-vaksinasi-org/static/js/main.69c1e7c1.chunk.js",
+    "main.js.map": "/portfolio-vaksinasi-org/static/js/main.69c1e7c1.chunk.js.map",
     "runtime-main.js": "/portfolio-vaksinasi-org/static/js/runtime-main.8114332d.js",
     "runtime-main.js.map": "/portfolio-vaksinasi-org/static/js/runtime-main.8114332d.js.map",
     "static/js/2.3cb2ac59.chunk.js": "/portfolio-vaksinasi-org/static/js/2.3cb2ac59.chunk.js",
@@ -14,6 +14,6 @@
   "entrypoints": [
     "static/js/runtime-main.8114332d.js",
     "static/js/2.3cb2ac59.chunk.js",
-    "static/js/main.6848c1ce.chunk.js"
+    "static/js/main.69c1e7c1.chunk.js"
   ]
 }
