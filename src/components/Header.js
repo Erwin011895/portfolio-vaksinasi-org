@@ -1,9 +1,7 @@
 // import './Header.css';
 
 function Header(props) {
-  const pathprefix = props.pathprefix;
   const pathname = document.location.pathname;
-  const lastpathname = pathname.slice(pathprefix.length);
 
   return (
     <header className="navigation">
@@ -29,7 +27,7 @@ function Header(props) {
       <nav className="navbar navbar-expand-lg  py-4" id="navbar">
         <div className="container">
           <a className="navbar-brand" href="/">
-           <img src="assets/images/brandlogo.png" width="150" height="50" alt="" />
+           <img src="/assets/images/brandlogo.png" width="150" height="50" alt="" />
           </a>
 
           <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,23 +36,23 @@ function Header(props) {
         
           <div className="collapse navbar-collapse text-center" id="navbarsExample09">
           <ul className="navbar-nav ml-auto">
-            <li className={lastpathname === '/' ? 'nav-item active' : 'nav-item'}>
-              <a className="nav-link" href={pathprefix + '/'}>Tentang Kami <span className="sr-only">(current)</span></a>
+            <li className={pathname === '/' ? 'nav-item active' : 'nav-item'}>
+              <a className="nav-link" href={'/'}>Tentang Kami <span className="sr-only">(current)</span></a>
             </li>
-            <li className={lastpathname === '/mengenali-vaksin' ? 'nav-item active' : 'nav-item'}>
-              <a className="nav-link" href={pathprefix + '/mengenali-vaksin'}>Mengenali Vaksin COVID-19</a>
+            <li className={pathname === '/mengenali-vaksin' ? 'nav-item active' : 'nav-item'}>
+              <a className="nav-link" href={'/mengenali-vaksin'}>Mengenali Vaksin COVID-19</a>
             </li>
-            <li className={lastpathname === '/register' ? 'nav-item active' : 'nav-item'}>
-              <a className="nav-link" href={pathprefix + '/register'}>Registrasi Vaksin Mandiri</a>
+            <li className={pathname === '/register' ? 'nav-item active' : 'nav-item'}>
+              <a className="nav-link" href={'/register'}>Registrasi Vaksin Mandiri</a>
             </li>
-            <li className={lastpathname === '/database' ? 'nav-item active' : 'nav-item'}>
-              <a className="nav-link" href={pathprefix + '/database'}>Database Vaksinasi</a>
+            <li className={pathname === '/database' ? 'nav-item active' : 'nav-item'}>
+              <a className="nav-link" href={'/database'}>Database Vaksinasi</a>
             </li>
-            <li className={lastpathname === '/lapor' ? 'nav-item active' : 'nav-item'}>
-              <a className="nav-link" href={pathprefix + '/lapor'}>Lapor</a>
+            <li className={pathname === '/lapor' ? 'nav-item active' : 'nav-item'}>
+              <a className="nav-link" href={'/lapor'}>Lapor</a>
             </li>
-            <li className={lastpathname === '/contact-us' ? 'nav-item active' : 'nav-item'}>
-              <a className="nav-link" href={pathprefix + '/contact-us'}>Kontak Kami</a>
+            <li className={pathname === '/contact-us' ? 'nav-item active' : 'nav-item'}>
+              <a className="nav-link" href={'/contact-us'}>Kontak Kami</a>
             </li>
             {/*<li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>

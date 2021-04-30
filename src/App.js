@@ -20,15 +20,12 @@ function App() {
     '/contact-us': <ContactUs/>
   };
 
-  const prefixToTrim = '/portfolio-vaksinasi-org';
-  // const prefixToTrim = '';
   const pathname = document.location.pathname;
-  const lastpathname = pathname.slice(prefixToTrim.length);
-  const page = routePages[lastpathname];
+  const page = routePages[pathname];
 
   return (
     <>
-      <Header pathprefix={prefixToTrim}/>
+      <Header/>
       {page}
       <Footer/>
     </>
